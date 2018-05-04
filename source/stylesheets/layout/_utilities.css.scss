@@ -23,3 +23,27 @@
 .bg-facebook {
   background: #3b5998;
 }
+
+body {
+  background: #d4d4d4;
+}
+h1 {
+  font-size: 60px;
+  background-color: white;
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  animation-name: welcome;
+  animation-duration: .9s;
+  color: black;
+  /*font-family: 'Satisfy', cursive; */
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  }
+h2 {
+  font-family: 'Varela Round', sans-serif;
+}
+#text-content {
+  height: 100vh;
+  }
+

@@ -1,0 +1,40 @@
+<%= stylesheet_link_tag "gallery" %>
+<h1>Gallerie photos</h1>
+  <div id="gallerie">
+    <div class="container">
+      <div class="row">
+        <div class="filter-box">
+          <a href="#hommes", class="filter">Coupes Hommes</a>
+          <a href="#femmes", class="filter">Coupes Femmes</a>
+        </div>
+        <section id="hommes">
+          <h2>Coupes Hommes</h2>
+          <% data.photos.hommes.each do |f| %>
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+            <div class="photo-box">
+              <%= image_tag f.photo %>
+            </div>
+            <p class="box-titre"><%= f.titre %></p>
+          </div>
+          <% end %>
+        </section>
+      </div>
+      <div class="row">
+        <section id="femmes">
+          <h2>Coupes Femmes</h2>
+          <% data.photos.femmes.each do |f| %>
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+            <div class="photo-box">
+              <%= image_tag f.photo %>
+            </div>
+            <p class="box-titre"><%= f.titre %></p>
+          </div>
+          <% end %>
+        </section>
+      </div><!-- Row -->
+    </div>
+  </div><!-- gallerie -->
+
+<!--<%= data.photos.cities[1]['address'] %>-->
+
+

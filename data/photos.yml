@@ -1,0 +1,35 @@
+hommes:
+  - photo: "https://cdn1.barbechic.fr/wp-content/uploads/2013/10/comment-devenir-barbier-500pix.jpg" #barbier
+    titre: "Barbe"
+  - photo: "https://cdn1.barbechic.fr/wp-content/uploads/2013/10/comment-devenir-barbier-500pix.jpg" #barbier
+    titre: "Barbier2"
+  - photo: "https://cdn1.barbechic.fr/wp-content/uploads/2013/10/comment-devenir-barbier-500pix.jpg" #barbier
+    titre: "Barbe"
+  - photo: "https://cdn1.barbechic.fr/wp-content/uploads/2013/10/comment-devenir-barbier-500pix.jpg" #barbier
+    titre: "Barbier2"
+
+femmes:
+  - photo: "https://i.pinimg.com/564x/22/55/e2/2255e2c7ec69c4509f8c451969f1fc35.jpg"
+    titre: "Chignon"
+  - photo: "https://i.pinimg.com/564x/0e/ae/56/0eae56e0e5bbc9e0853b61611b7e706a.jpg"
+    titre: "Chignon2"
+  - photo: "https://i.pinimg.com/564x/22/55/e2/2255e2c7ec69c4509f8c451969f1fc35.jpg"
+    titre: "Chignon"
+  - photo: "https://i.pinimg.com/564x/0e/ae/56/0eae56e0e5bbc9e0853b61611b7e706a.jpg"
+    titre: "Chignon2"
+  - photo: "https://i.pinimg.com/564x/22/55/e2/2255e2c7ec69c4509f8c451969f1fc35.jpg"
+    titre: "Chignon"
+  - photo: "https://i.pinimg.com/564x/0e/ae/56/0eae56e0e5bbc9e0853b61611b7e706a.jpg"
+    titre: "Chignon2"
+  - photo: "https://i.pinimg.com/564x/22/55/e2/2255e2c7ec69c4509f8c451969f1fc35.jpg"
+    titre: "Chignon"
+  - photo: "https://i.pinimg.com/564x/0e/ae/56/0eae56e0e5bbc9e0853b61611b7e706a.jpg"
+    titre: "Chignon2"
+
+
+
+cities:
+- name: Berlin
+  address: "Rudi-Dutschke-Straße 26, 10969 Berlin"
+- name: Paris
+  address: "16, villa Gaudelet 75011 Paris"
