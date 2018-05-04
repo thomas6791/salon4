@@ -13,3 +13,23 @@
   color: white;
   opacity: 0.8;
 }
+
+.filter-box {
+    display: flex;
+}
+.filter {
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  border: solid 2px whitesmoke;
+  color: whitesmoke;
+  font-weight: bold;
+  width: 160px;
+  margin-left: 10px;
+  border-radius: 4px;
+}
+
+.filter:hover {
+  color: #CF2681;
+  text-decoration: none;
+  border: solid 2px #CF2681;
+}

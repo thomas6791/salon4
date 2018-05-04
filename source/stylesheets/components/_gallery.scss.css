@@ -1,22 +1,3 @@
-.filter-box {
-    display: flex;
-}
-.filter {
-  padding: 5px 20px;
-  border: solid 2px whitesmoke;
-  color: whitesmoke;
-  font-weight: bold;
-  width: 160px;
-  margin-left: 10px;
-  border-radius: 4px;
-}
-
-.filter:hover {
-  color: #CF2681;
-  text-decoration: none;
-  border: solid 2px #CF2681;
-}
-
 #gallerie {
   display: flex;
   padding-top: 10px;

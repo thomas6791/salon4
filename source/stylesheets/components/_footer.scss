@@ -8,8 +8,13 @@ footer {
   align-items: center;
   font-size: 15px;
   padding: 15px 15px;
+  margin-top: 30px;
   address {
     margin: 0px;
+    .logo-alsace {
+      width: 20px;
+      height: auto;
+    }
   }
   .social-footer {
     width: 50px;
