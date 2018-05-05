@@ -17,6 +17,7 @@
 }
 
 
+
 .navbar-wagon-fixed {
   position: fixed;
   left: 0px;
@@ -155,4 +156,10 @@
     padding-bottom: 3px;
   }
 }
+.navbar-wagon {
+  .link-logo {
+    padding-left: 0px;
+  }
+}
+
 
