@@ -1,0 +1,23 @@
+
+horaires:
+  - jour: "Lundi"
+    matin: "8h00 à 12h00"
+    midi: "14h00 à 18h00"
+  - jour: "Mardi"
+    matin: "8h00 à 12h00"
+    midi: "14h00 à 18h00"
+  - jour: "Mercredi"
+    matin: "8h00 à 12h00"
+    midi: "14h00 à 18h00"
+  - jour: "Jeudi"
+    matin: "8h00 à 12h00"
+    midi: "14h00 à 18h00"
+  - jour: "Vendredi"
+    matin: "8h00 à 12h00"
+    midi: "14h00 à 18h00"
+  - jour: "Samedi"
+    matin: "8h00 à 12h00"
+    midi: "14h00 à 18h00"
+  - jour: "Dimanche"
+    matin: "Fermé"
+
