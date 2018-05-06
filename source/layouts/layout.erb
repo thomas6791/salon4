@@ -9,9 +9,15 @@
     <!-- For Bootstrap responsiveness -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="<%= current_page.data.robots %>">
+
+    <meta name="geo.position" content="latitude; longitude">
+    <meta name="geo.placename" content="Place Name">
+    <meta name="geo.region" content="Country Subdivision Code">
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "The Middleman" %></title>
+    <title><%= current_page.data.title %></title>
+    <meta name="description" content= "<%= current_page.data.description %>" />
 
     <%= stylesheet_link_tag "all" %>
     <%= javascript_include_tag  "all" %>
@@ -22,6 +28,28 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+      <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js">
+      </script>
+      <script>
+        window.addEventListener("load", function(){
+        window.cookieconsent.initialise({
+          "palette": {
+            "popup": {
+              "background": "#343c66",
+              "text": "#cfcfe8"
+            },
+            "button": {
+              "background": "#f71559"
+            }
+          },
+          "content": {
+            "message": "En poursuivant votre navigation sur ce site, vous acceptez l’utilisation de Cookies pour réaliser des statistiques de visites et ainsi améliorer l'expérience utilisateur.",
+            "dismiss": "J'accepte",
+            "link": "En savoir plus"
+          }
+        })});
+      </script>
   </head>
 
   <body class="<%= page_classes %>">
