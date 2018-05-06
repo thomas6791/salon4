@@ -3,3 +3,17 @@ title: A propos - Ambition Coiffure
 description:
 ---
 <h1>A propos</h1>
+<div class="horaires-box">
+<h2>Horaires d'ouverture</h2>
+  <div class="container">
+    <% data.horaires.horaires.each do |day| %>
+    <div class="row">
+      <div class="horaires col-xs-12 col-sm-offset-3 col-sm-6">
+        <p class="col-xs-4"><%= day.jour %></p>
+        <p class="col-xs-4"><%= day.matin %></p>
+        <p class="col-xs-4"><%= day.midi %></p>
+      </div>
+    </div>
+    <% end %>
+  </div>
+</div>
