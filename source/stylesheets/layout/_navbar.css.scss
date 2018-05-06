@@ -161,5 +161,16 @@
     padding-left: 0px;
   }
 }
+@media all and (max-width: 980px)
+{
+  .navbar-wagon {
+    .link-logo {
+      .logo {
+        width: 150px;
+        height: auto;
+      }
+    }
+  }
+}
 
 
