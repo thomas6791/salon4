@@ -15,11 +15,11 @@ font-family: 'Varela Round', sans-serif;
 &.contact {
   margin-top: 50px;
   margin-bottom: 50px;
-  color: white;
+  color: $black;
   a {
-    color: white;
+    color: $black;
     &:hover {
-      color: white;
+      color: $black;
     }
   }
 }
@@ -44,5 +44,5 @@ font-family: 'Varela Round', sans-serif;
   }
 }
 .white-title {
-  color: white;
+  color: $black;
 }
