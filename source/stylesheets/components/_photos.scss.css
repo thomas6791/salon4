@@ -8,3 +8,12 @@
   }
   margin-bottom: 20px;
 }
+
+@media all and (max-width: 980px)
+{
+  .coiffures {
+    h2 {
+      text-align: center;
+    }
+  }
+}
