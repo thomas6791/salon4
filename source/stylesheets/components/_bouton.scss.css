@@ -5,7 +5,6 @@
   border-radius: 3px;
   text-decoration: none;
   display: block;
-  width: 200px;
   text-align: center;
 }
 .bouton:hover {
@@ -20,8 +19,8 @@
 .filter {
   text-align: center;
   font-family: 'Comfortaa', cursive;
-  border: solid 2px whitesmoke;
-  color: whitesmoke;
+  border: solid 2px #8e7a7a;
+  color: #8e7a7a;
   font-weight: bold;
   width: 160px;
   margin-left: 15px;
