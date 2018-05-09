@@ -36,7 +36,17 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
-      <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js">
+
+  </head>
+
+  <body class="<%= page_classes %>">
+
+    <%= partial "partials/navbaraudrey" %>
+    <main>
+      <%= yield %>
+    </main>
+    <%= partial 'partials/footer' %>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js">
       </script>
       <script>
         window.addEventListener("load", function(){
@@ -59,15 +69,6 @@
           },
         })});
       </script>
-  </head>
-
-  <body class="<%= page_classes %>">
-
-    <%= partial "partials/navbaraudrey" %>
-    <main>
-      <%= yield %>
-    </main>
-    <%= partial 'partials/footer' %>
 
   </body>
 </html>

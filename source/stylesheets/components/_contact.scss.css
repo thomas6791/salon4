@@ -14,7 +14,7 @@
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 3px;
-    border: solid 1px whitesmoke;
+    border: solid 1px #8e7a7a;
     &:focus {
       outline:none;
     }
@@ -24,7 +24,7 @@
   }
   textarea {
     border-radius: 3px;
-    border: solid 1px whitesmoke;
+    border: solid 1px #8e7a7a;
     &:focus {
       outline:none;
     }
