@@ -1,0 +1,72 @@
+femmes:
+  - coupe: "coupe dame court"
+    prix: "15€"
+  - coupe: "coupe dame mi-long"
+    prix: "17€"
+  - coupe: "coupe dame long"
+    prix: "18€"
+
+  - coupe: "brushing dame court"
+    prix: "18.50€"
+  - coupe: "brushing dame mi-long"
+    prix: "21.50€"
+  - coupe: "brushing dame long"
+    prix: "25€"
+
+  - coupe: "couleur dame court"
+    prix: "25€"
+  - coupe: "couleur dame mi-long"
+    prix: "29€"
+  - coupe: "couleur dame long"
+    prix: "34€"
+
+  - coupe: "mèches dame court"
+    prix: "30€"
+  - coupe: "mèches dame mi-long"
+    prix: "35€"
+  - coupe: "mèches dame long"
+    prix: "40€"
+
+  - coupe: "permanente dame court"
+    prix: "27€"
+  - coupe: "permanente dame mi-long"
+    prix: "31€"
+  - coupe: "permanente dame long"
+    prix: "38€"
+
+  - coupe: "quelques mèches addition couleur(selon chevelure et quantité)"
+    prix: "10€ - 15€ - 20€"
+
+  - coupe: "chignon selon prestation variable"
+    prix: "30€ à 60€"
+  - coupe: "forfait CB court"
+    prix: "32.50€"
+  - coupe: "forfait CB mi-long"
+    prix: "37.50€"
+  - coupe: "forfait CB long"
+    prix: "42€"
+
+hommes:
+  - coupe: "coupe homme"
+    prix: "16.50€"
+  - coupe: "coupe homme shampooing"
+    prix: "18.50€"
+  - coupe: "barbe"
+    prix: "15€"
+  - coupe: "shampooing"
+    prix: "2€"
+
+fillettes:
+  - categorie: "3 à 8 ans"
+    prix: "15€"
+  - categorie: "8 à 14 ans"
+    prix: "25€"
+juniors:
+  - categorie: "3 à 8 ans"
+    prix: "12€"
+  - categorie: "8 à 14 ans"
+    prix: "14€"
+petits:
+  - categorie: "- 3 ans"
+    prix: "10.50€"
+

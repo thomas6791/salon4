@@ -1,0 +1,60 @@
+---
+title: Tarifs des prestations de coiffure - Ambition Coiffure
+description:
+robots: index, follow
+---
+
+<h1>Tarifs des prestations de coiffure</h1>
+<div class="horaires-box">
+<h2>Tarifs Coupes Femme</h2>
+  <div class="container">
+    <% data.prix.femmes.each do |femme| %>
+    <div class="row">
+      <div class="horaires col-xs-12 col-sm-offset-3 col-sm-6">
+        <p class="col-xs-8"><%= femme.coupe.capitalize %></p>
+        <p class="col-xs-4"><%= femme.prix %></p>
+      </div>
+    </div>
+    <% end %>
+    <hr>
+    <h2>Tarifs Coupes Homme</h2>
+    <% data.prix.hommes.each do |homme| %>
+    <div class="row">
+      <div class="horaires col-xs-12 col-sm-offset-3 col-sm-6">
+        <p class="col-xs-8"><%= homme.coupe.capitalize %></p>
+        <p class="col-xs-4"><%= homme.prix %></p>
+      </div>
+    </div>
+    <% end %>
+    <hr>
+    <h2>Tarifs Coupes Enfant</h2>
+    <h3 class="text-center">Tarifs Coupes Fillettes</h3>
+    <% data.prix.fillettes.each do |fille| %>
+      <div class="row">
+        <div class="horaires col-xs-12 col-sm-offset-3 col-sm-6">
+          <p class="col-xs-8"><%= fille.categorie.capitalize %></p>
+          <p class="col-xs-4"><%= fille.prix %></p>
+        </div>
+      </div>
+    <% end %>
+    <h3 class="text-center">Tarifs Coupes Juniors</h3>
+    <% data.prix.juniors.each do |fille| %>
+      <div class="row">
+        <div class="horaires col-xs-12 col-sm-offset-3 col-sm-6">
+          <p class="col-xs-8"><%= fille.categorie.capitalize %></p>
+          <p class="col-xs-4"><%= fille.prix %></p>
+        </div>
+      </div>
+    <% end %>
+    <h3 class="text-center">Tarifs Coupes Petits</h3>
+    <% data.prix.petits.each do |fille| %>
+      <div class="row">
+        <div class="horaires col-xs-12 col-sm-offset-3 col-sm-6">
+          <p class="col-xs-8"><%= fille.categorie.capitalize %></p>
+          <p class="col-xs-4"><%= fille.prix %></p>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
+
