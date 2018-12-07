@@ -7,25 +7,30 @@ hommes:
     titre: "Barbe"
   - photo: "https://cdn1.barbechic.fr/wp-content/uploads/2013/10/comment-devenir-barbier-500pix.jpg" #barbier
     titre: "Barbier2"
+  - photo: "https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/37911436_261148744675492_8417046679273865216_n.jpg?_nc_cat=111&_nc_ht=scontent-cdt1-1.xx&oh=bc06f78d6840ff823ce14e099540d7dd&oe=5C9CC9E5"
+    titre: "Coupe homme"
+  - photo: "https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/37909098_261148741342159_8230802324495269888_n.jpg?_nc_cat=105&_nc_ht=scontent-cdt1-1.xx&oh=5fcb7d112a568f3806bace64e140860e&oe=5C675AC6"
+    titre: "Coupe homme"
+  - photo: "https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/37942474_261148738008826_2262057067466457088_n.jpg?_nc_cat=107&_nc_ht=scontent-cdt1-1.xx&oh=aa47544c5584ce66e5794785caedcef5&oe=5C65E6AC"
+    titre: "Coupe homme"
 
 femmes:
-  - photo: "https://i.pinimg.com/564x/22/55/e2/2255e2c7ec69c4509f8c451969f1fc35.jpg"
+  - photo: "https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/42929602_308785833245116_7923189800318795776_n.jpg?_nc_cat=111&_nc_ht=scontent-cdt1-1.xx&oh=06ee0d203f7f193c3497398b43675497&oe=5C653FDE"
     titre: "Chignon"
-  - photo: "https://i.pinimg.com/564x/0e/ae/56/0eae56e0e5bbc9e0853b61611b7e706a.jpg"
-    titre: "Chignon2"
-  - photo: "https://i.pinimg.com/564x/22/55/e2/2255e2c7ec69c4509f8c451969f1fc35.jpg"
+  - photo: "https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/42791990_308785779911788_679615739220459520_n.jpg?_nc_cat=100&_nc_ht=scontent-cdt1-1.xx&oh=238e92440bff5e019318c97833fcedc0&oe=5C981383"
     titre: "Chignon"
-  - photo: "https://i.pinimg.com/564x/0e/ae/56/0eae56e0e5bbc9e0853b61611b7e706a.jpg"
-    titre: "Chignon2"
-  - photo: "https://i.pinimg.com/564x/22/55/e2/2255e2c7ec69c4509f8c451969f1fc35.jpg"
+  - photo: "https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/42792872_308785753245124_2587855294923014144_n.jpg?_nc_cat=105&_nc_ht=scontent-cdt1-1.xx&oh=be23cb7c62d38e72fca9f890fc6002cf&oe=5C63DAE7"
     titre: "Chignon"
-  - photo: "https://i.pinimg.com/564x/0e/ae/56/0eae56e0e5bbc9e0853b61611b7e706a.jpg"
-    titre: "Chignon2"
-  - photo: "https://i.pinimg.com/564x/22/55/e2/2255e2c7ec69c4509f8c451969f1fc35.jpg"
+  - photo: "https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/42913037_308785719911794_2004051308184600576_n.jpg?_nc_cat=100&_nc_ht=scontent-cdt1-1.xx&oh=d3b11cd6f7b4c3a4882dd397e19d2c63&oe=5C6C0B87"
     titre: "Chignon"
-  - photo: "https://i.pinimg.com/564x/0e/ae/56/0eae56e0e5bbc9e0853b61611b7e706a.jpg"
-    titre: "Chignon2"
-
+  - photo: "https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/40022354_291336151656751_5959642834054152192_n.jpg?_nc_cat=106&_nc_ht=scontent-cdt1-1.xx&oh=107894fb70976e35a47901a740ed40aa&oe=5C973F61"
+    titre: "Chignon"
+  - photo: "https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/40044399_291336034990096_5595558065530208256_n.jpg?_nc_cat=105&_nc_ht=scontent-cdt1-1.xx&oh=0bd5af163db4a041d2a930347c099b4f&oe=5C646BC5"
+    titre: "Chignon"
+  - photo: "https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/40044359_291336018323431_1117561249312276480_n.jpg?_nc_cat=106&_nc_ht=scontent-cdt1-1.xx&oh=26f820ec9db3d158c19caeb94b0549c7&oe=5C987F9E"
+    titre: "Chignon"
+  - photo: "https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/40065088_291335971656769_4442545451782111232_n.jpg?_nc_cat=110&_nc_ht=scontent-cdt1-1.xx&oh=d93be7139f9df2fe590d7326bbce1676&oe=5C9D3E5E"
+    titre:  "Chignon"
 
 
 cities:
