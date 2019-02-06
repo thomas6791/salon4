@@ -15,14 +15,6 @@
 #home-content {
   padding-left: 10px;
   padding-right: 10px;
-  .wrapper {
-    .container {
-      .row {
-        &:after { content: none; }
-        &:before { content: none; }
-      }
-    }
-  }
 }
 .message-important {
   border: solid 1px;
@@ -30,6 +22,8 @@
   flex-direction: column;
   border-radius: 5px;
   padding: 0px;
+  width: 30%;
+  float: right;
   h2 {
     margin: 0px;
     padding: 0px;
@@ -40,9 +34,13 @@
   }
   p { margin: 0px; padding: 0px; padding: 10px; }
 }
-.home-circle {
-  width: 400px;
-  height: auto;
+.img-circle {
+  width: 350px;
   display: block;
   margin: auto;
+}
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
 }

@@ -10,8 +10,8 @@ robots: index, follow
 
 <div id="home-content">
   <div class="wrapper">
-    <div class="container">
 
+    <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-8">
           <p class=""></p>
@@ -23,24 +23,22 @@ robots: index, follow
       </div>
 
       <div class="row">
-        <div class="col-xs-12 col-sm-6">
-          <%= image_tag 'hair-round-blue.png', class: "home-circle", alt: "coupe cheveux mi longs femme brune" %>
+        <p class="col-xs-6"></p>
+        <p class="col-xs-6"></p>
+      </div><!-- Fin de la row-->
+       <div class="row">
+        <div class="col-xs-12 col-md-6">
+         <%= image_tag 'hair-round-blue.png', alt: "coupe cheveux mi longs femme brune", class: "img-circle" %>
         </div>
-        </div class="col-xs-12 col-sm-6">
-          <p class="">Trouvez votre prochain style de coiffure en visitant la galerie photos des personnes qui sont déjà passées par le salon.</p>
-          <%= link_to 'voir la galerie des photos', '/gallerie.html' %>
-        </div>
-      </div>
-
+        <p class="col-xs-12 col-md-6">Trouvez l'inspiration pour votre prochaine coupe de cheveux en visitant la galerie photos.<br>
+        <%= link_to 'voir la galerie photos', '/gallerie.html', class: "link-pink" %>
+        </p>
+      </div><!-- Fin de la row-->
       <div class="row">
-        <div class="col-xs-12 col-sm-6">
-          <p>L</p>
-        </div>
-        <div class="col-xs-12 col-sm-6">
-          <%= image_tag 'home/produits.png', class: "home-circle" %>
-        </div>
-      </div>
-
+        <p class="col-xs-6"></p>
+        <p class="col-xs-6"></p>
+      </div><!-- Fin de la row-->
     </div>
+
   </div>
 </div>
