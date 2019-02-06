@@ -7,9 +7,23 @@
   background-position: 50%;
   background-repeat: no-repeat;
   position: relative;
-  h1 {
-    background-color: transparent;
-    color: white;
+  display: flex;
+  justify-content: center;
+  .titre {
+    position: relative;
+    h1, h2 {
+      background-color: transparent;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+      color: white;
+    }
+    h2 {
+      margin: 0px;
+      padding: 0px;
+      position: absolute;
+      right: -40px;
+      font-size: 1.5em;
+    }
   }
 }
 #home-content {
