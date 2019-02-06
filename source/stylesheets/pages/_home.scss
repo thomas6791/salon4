@@ -1,0 +1,46 @@
+#welcome {
+  margin-bottom: 15px;
+  background-image: url("../images/home/home-banner.png");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  h1 {
+    background-color: transparent;
+    color: white;
+  }
+}
+#home-content {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.message-important {
+  border: solid 1px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 0px;
+  width: 30%;
+  float: right;
+  h2 {
+    margin: 0px;
+    padding: 0px;
+    padding: 10px 0px;
+    font-size: 1.4em;
+    background-color: $black;
+    color: white;
+  }
+  p { margin: 0px; padding: 0px; padding: 10px; }
+}
+.img-circle {
+  width: 350px;
+  display: block;
+  margin: auto;
+}
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
