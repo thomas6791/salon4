@@ -20,7 +20,7 @@ robots: index, follow
     <h2>Tarifs Coupes Homme</h2>
     <% data.prix.hommes.each do |homme| %>
     <div class="row">
-      <div class="horaires col-xs-12 col-sm-offset-3 col-sm-6">
+      <div class="horaires col-xs-12 col-sm-offset-3 col-sm-6" id="prix-homme">
         <p class="col-xs-8"><%= homme.coupe.capitalize %></p>
         <p class="col-xs-4"><%= homme.prix %></p>
       </div>

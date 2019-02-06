@@ -16,34 +16,40 @@ robots: index, follow
 
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-sm-8">
+        <div class="col-xs-12 col-md-8">
           <p class=""></p>
         </div>
-        <div class="message-important col-xs-12 col-sm-4">
+        <div class="message-important col-xs-12 col-md-4">
           <h2>Message important</h2>
           <p>Le salon sera fermé du 11 au 17 février</p>
         </div>
       </div>
 
       <div class="row">
+        <p class="col-xs-6">Repris par Audrey Walther, ce salon de coiffure situé dans le centre ville de Lembach a fait peau neuve en avril 2018 et propose aujourd'hui modernité dans ses locaux et dans les coupes de cheveux que propose Audrey à ses clients.</p>
         <p class="col-xs-6"></p>
-        <p class="col-xs-6"></p>
-      </div><!-- Fin de la row-->
-       <div class="row">
-        <div class="col-xs-12 col-md-6">
-         <%= image_tag 'hair-round-blue.png', alt: "coupe cheveux mi longs femme brune", class: "img-circle" %>
-        </div>
-        <p class="col-xs-12 col-md-6">Trouvez l'inspiration pour votre prochaine coupe de cheveux en visitant la galerie photos.<br>
-        <%= link_to 'voir la galerie photos', '/gallerie.html', class: "link-pink" %>
-        </p>
       </div><!-- Fin de la row-->
       <div class="row">
         <div class="col-xs-12 col-md-6">
-          <h2>Taille de barbe</h2>
-          <p>Offrez-vous ou à un proche un moment de détente avec une authentique taille de barbe.</p>
+          <h2>Galerie Photos</h2>
+          <p>
+            Trouvez l'inspiration pour votre prochaine coupe de cheveux en visitant la galerie photos.<br>
+            <%= link_to 'voir la galerie photos', '/gallerie.html', class: "link-pink" %>
+          </p>
         </div>
         <div class="col-xs-12 col-md-6">
+          <%= image_tag 'hair-round-blue.png', alt: "coupe cheveux mi longs femme brune", class: "img-circle" %>
+        </div>
+      </div><!-- Fin de la row-->
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
           <%= image_tag 'home/barbershop.png', alt: "coupe cheveux mi longs femme brune", class: "barbershop", width: 300 %>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <h2>Taille de barbe</h2>
+          <p>Offrez-vous ou à un proche un moment de détente avec une authentique taille de barbe proposée au sein du salon<br>
+          <%= link_to 'voir le tarif', '/tarifs.html#prix-homme', class: "link-pink" %>
+          </p>
         </div>
       </div><!-- Fin de la row-->
     </div>
