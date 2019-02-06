@@ -20,20 +20,3 @@ h1 {
   animation-name: welcome;
   animation-duration: .9s;
 }
-.home-banner {
-  width: 100%;
-  z-index: -1;
-}
-#welcome {
-  background-image: url("../images/home/home-banner.png");
-  height: 500px;
-  width: 100%;
-  background-size: cover;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  position: relative;
-  h1 {
-    background-color: transparent;
-    color: white;
-  }
-}
