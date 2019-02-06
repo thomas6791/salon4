@@ -12,23 +12,19 @@
     color: white;
   }
 }
-#text-content {
-  #message-important {
-    float: right;
-    border: solid 1px;
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    width: 30%;
-    border-radius: 5px;
-    h2 {
-      margin: 0px;
-      padding: 0px;
-      padding: 10px 0px;
-      font-size: 1.8em;
-      background-color: $black;
-      color: white;
-    }
-    p { margin: 0px; padding: 0px; padding: 10px; }
+.message-important {
+  border: solid 1px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 0px;
+  h2 {
+    margin: 0px;
+    padding: 0px;
+    padding: 10px 0px;
+    font-size: 1.4em;
+    background-color: $black;
+    color: white;
   }
+  p { margin: 0px; padding: 0px; padding: 10px; }
 }
