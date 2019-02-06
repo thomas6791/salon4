@@ -12,6 +12,10 @@
     color: white;
   }
 }
+#home-content {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 .message-important {
   border: solid 1px;
   display: flex;
@@ -31,8 +35,6 @@
 .home-circle {
   width: 350px;
   height: auto;
-}
-.row {
-  margin-top: 25px;
-  margin-bottom: 25px;
+  display: block;
+  margin: auto;
 }
