@@ -69,6 +69,10 @@
 
 @media screen and (max-width: 990px) {
   #welcome {
+
+    .titre {
+      h1, h2 { position: initial; }
+      h2 { text-align: right; }
       .titre {
         h2 {
         position: inherit;
@@ -82,4 +86,5 @@
     margin-bottom: 15px;
   }
   .presentation { margin-top: 15px; margin-bottom: 40px; }
+  .img-circle, .barbershop { width: 250px; }
 }
